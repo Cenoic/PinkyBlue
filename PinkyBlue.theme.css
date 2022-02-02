@@ -1,0 +1,43 @@
+/**
+ * @name PinkyBlue
+ * @version 1.0.0.2
+ * @description A Pink-Blue Transparent Theme
+ * @author Clarity#8934
+ *
+ */
+@import url(https://cenoic.github.io/PinkyBlue/core.css);
+
+
+:root {
+	--app-bg: url(https://i.imgur.com/RBwmCvd.jpg);
+	--app-blur: 14px;
+	--app-margin: -5px;
+	--app-radius: 12px;
+	--app-accent-rgb: 207,198,255;
+	--app-accent-image: none;
+	--app-accent-text: #416dff; /*	-	*/
+
+	--sidebar-color: rgba(127, 0, 77, 0.28);
+	--main-content-color: rgba(129, 0, 78, 0.2); /*	-	*/
+
+	--messages-color: rgba(127,0,77,0.1);
+	--mentiona-alt: rgb(112, 146, 255); /*	-	*/
+
+	--textarea-color: 129,0,88;
+	--textarea-alpha: 0.3;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #6f91ff;
+	--textarea-radius: 15px;  /*	-	*/
+
+	--card-color: rgba(127,0,77,0.32);
+	--card-color-hover: rgba(127,0,77,0.5);
+	--card-color-select: rgba(127,0,77,0.7); /*	-	*/
+
+	--interactive-normal: #5d83ff;
+	--interactive-hover: #dbd3ff;
+	--interactive-active: #416dff;
+	--interactive-muted: #1b2f6e; /*	-	*/
+
+	--background-modifier-hover: rgba(13,0,189,0.12);
+	--background-modifier-selected: rgba(13,0,189,0.3);
+}
